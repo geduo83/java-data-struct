@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:id="@+id/btn_array_blocking_queue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ArrayBlockingQueue"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/btn_linked_blocking_queue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LinkedBlockingQueue"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/btn_priority_blocking_queue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PriorityBlockingQueue"
+        android:textAllCaps="false"
+        />
+</LinearLayout>
